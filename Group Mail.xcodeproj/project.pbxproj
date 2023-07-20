@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95F773BB2A685E3D000FD5EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F773BA2A685E3D000FD5EE /* AppDelegate.swift */; };
+		95F773BD2A685E3D000FD5EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F773BC2A685E3D000FD5EE /* SceneDelegate.swift */; };
+		95F773C22A685E3D000FD5EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F773C02A685E3D000FD5EE /* Main.storyboard */; };
+		95F773C52A685E3D000FD5EE /* Group_Mail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95F773C32A685E3D000FD5EE /* Group_Mail.xcdatamodeld */; };
+		95F773C72A685E3E000FD5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F773C62A685E3E000FD5EE /* Assets.xcassets */; };
+		95F773CA2A685E3E000FD5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F773C82A685E3E000FD5EE /* LaunchScreen.storyboard */; };
+		95F773D62A685E93000FD5EE /* GroupsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F773D52A685E93000FD5EE /* GroupsListViewController.swift */; };
+		95F773D82A685EAE000FD5EE /* EmailsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F773D72A685EAE000FD5EE /* EmailsListViewController.swift */; };
+		95F773DA2A685EC7000FD5EE /* GroupEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F773D92A685EC7000FD5EE /* GroupEditViewController.swift */; };
+		95F773DE2A685F14000FD5EE /* EmailsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F773DD2A685F14000FD5EE /* EmailsListViewModel.swift */; };
+		95F773E02A685F20000FD5EE /* GroupsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F773DF2A685F20000FD5EE /* GroupsListViewModel.swift */; };
+		95F773E22A685F2D000FD5EE /* GroupEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F773E12A685F2D000FD5EE /* GroupEditViewModel.swift */; };
+		95F773E52A685F42000FD5EE /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F773E42A685F42000FD5EE /* CoreDataHelper.swift */; };
+		95F773E82A6885A0000FD5EE /* EmailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F773E72A6885A0000FD5EE /* EmailCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95F773B72A685E3D000FD5EE /* Group Mail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Group Mail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F773BA2A685E3D000FD5EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95F773BC2A685E3D000FD5EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95F773C12A685E3D000FD5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95F773C42A685E3D000FD5EE /* Group_Mail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Group_Mail.xcdatamodel; sourceTree = "<group>"; };
+		95F773C62A685E3E000FD5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F773C92A685E3E000FD5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95F773CB2A685E3E000FD5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F773D52A685E93000FD5EE /* GroupsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsListViewController.swift; sourceTree = "<group>"; };
+		95F773D72A685EAE000FD5EE /* EmailsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailsListViewController.swift; sourceTree = "<group>"; };
+		95F773D92A685EC7000FD5EE /* GroupEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupEditViewController.swift; sourceTree = "<group>"; };
+		95F773DD2A685F14000FD5EE /* EmailsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailsListViewModel.swift; sourceTree = "<group>"; };
+		95F773DF2A685F20000FD5EE /* GroupsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsListViewModel.swift; sourceTree = "<group>"; };
+		95F773E12A685F2D000FD5EE /* GroupEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupEditViewModel.swift; sourceTree = "<group>"; };
+		95F773E42A685F42000FD5EE /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		95F773E72A6885A0000FD5EE /* EmailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F773B42A685E3D000FD5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95F773AE2A685E3D000FD5EE = {
+			isa = PBXGroup;
+			children = (
+				95F773B92A685E3D000FD5EE /* Group Mail */,
+				95F773B82A685E3D000FD5EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95F773B82A685E3D000FD5EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95F773B72A685E3D000FD5EE /* Group Mail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F773B92A685E3D000FD5EE /* Group Mail */ = {
+			isa = PBXGroup;
+			children = (
+				95F773E62A68858D000FD5EE /* Custom Views */,
+				95F773E32A685F32000FD5EE /* Helpers */,
+				95F773D12A685E48000FD5EE /* Views */,
+				95F773BA2A685E3D000FD5EE /* AppDelegate.swift */,
+				95F773BC2A685E3D000FD5EE /* SceneDelegate.swift */,
+				95F773C02A685E3D000FD5EE /* Main.storyboard */,
+				95F773C62A685E3E000FD5EE /* Assets.xcassets */,
+				95F773C82A685E3E000FD5EE /* LaunchScreen.storyboard */,
+				95F773CB2A685E3E000FD5EE /* Info.plist */,
+				95F773C32A685E3D000FD5EE /* Group_Mail.xcdatamodeld */,
+			);
+			path = "Group Mail";
+			sourceTree = "<group>";
+		};
+		95F773D12A685E48000FD5EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95F773D42A685E6C000FD5EE /* ViewModels */,
+				95F773D22A685E56000FD5EE /* ViewControllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95F773D22A685E56000FD5EE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				95F773D52A685E93000FD5EE /* GroupsListViewController.swift */,
+				95F773D72A685EAE000FD5EE /* EmailsListViewController.swift */,
+				95F773D92A685EC7000FD5EE /* GroupEditViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		95F773D42A685E6C000FD5EE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				95F773DD2A685F14000FD5EE /* EmailsListViewModel.swift */,
+				95F773DF2A685F20000FD5EE /* GroupsListViewModel.swift */,
+				95F773E12A685F2D000FD5EE /* GroupEditViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		95F773E32A685F32000FD5EE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				95F773E42A685F42000FD5EE /* CoreDataHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		95F773E62A68858D000FD5EE /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				95F773E72A6885A0000FD5EE /* EmailCell.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95F773B62A685E3D000FD5EE /* Group Mail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F773CE2A685E3E000FD5EE /* Build configuration list for PBXNativeTarget "Group Mail" */;
+			buildPhases = (
+				95F773B32A685E3D000FD5EE /* Sources */,
+				95F773B42A685E3D000FD5EE /* Frameworks */,
+				95F773B52A685E3D000FD5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Group Mail";
+			productName = "Group Mail";
+			productReference = 95F773B72A685E3D000FD5EE /* Group Mail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95F773AF2A685E3D000FD5EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					95F773B62A685E3D000FD5EE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 95F773B22A685E3D000FD5EE /* Build configuration list for PBXProject "Group Mail" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95F773AE2A685E3D000FD5EE;
+			productRefGroup = 95F773B82A685E3D000FD5EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95F773B62A685E3D000FD5EE /* Group Mail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95F773B52A685E3D000FD5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F773CA2A685E3E000FD5EE /* LaunchScreen.storyboard in Resources */,
+				95F773C72A685E3E000FD5EE /* Assets.xcassets in Resources */,
+				95F773C22A685E3D000FD5EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F773B32A685E3D000FD5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F773E02A685F20000FD5EE /* GroupsListViewModel.swift in Sources */,
+				95F773DA2A685EC7000FD5EE /* GroupEditViewController.swift in Sources */,
+				95F773E22A685F2D000FD5EE /* GroupEditViewModel.swift in Sources */,
+				95F773D62A685E93000FD5EE /* GroupsListViewController.swift in Sources */,
+				95F773BB2A685E3D000FD5EE /* AppDelegate.swift in Sources */,
+				95F773C52A685E3D000FD5EE /* Group_Mail.xcdatamodeld in Sources */,
+				95F773D82A685EAE000FD5EE /* EmailsListViewController.swift in Sources */,
+				95F773E52A685F42000FD5EE /* CoreDataHelper.swift in Sources */,
+				95F773BD2A685E3D000FD5EE /* SceneDelegate.swift in Sources */,
+				95F773E82A6885A0000FD5EE /* EmailCell.swift in Sources */,
+				95F773DE2A685F14000FD5EE /* EmailsListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95F773C02A685E3D000FD5EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F773C12A685E3D000FD5EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95F773C82A685E3E000FD5EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F773C92A685E3E000FD5EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95F773CC2A685E3E000FD5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95F773CD2A685E3E000FD5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95F773CF2A685E3E000FD5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A2X839YU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Group Mail/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.Group-Mail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95F773D02A685E3E000FD5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A2X839YU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Group Mail/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.Group-Mail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95F773B22A685E3D000FD5EE /* Build configuration list for PBXProject "Group Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F773CC2A685E3E000FD5EE /* Debug */,
+				95F773CD2A685E3E000FD5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F773CE2A685E3E000FD5EE /* Build configuration list for PBXNativeTarget "Group Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F773CF2A685E3E000FD5EE /* Debug */,
+				95F773D02A685E3E000FD5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95F773C32A685E3D000FD5EE /* Group_Mail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95F773C42A685E3D000FD5EE /* Group_Mail.xcdatamodel */,
+			);
+			currentVersion = 95F773C42A685E3D000FD5EE /* Group_Mail.xcdatamodel */;
+			path = Group_Mail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95F773AF2A685E3D000FD5EE /* Project object */;
+}

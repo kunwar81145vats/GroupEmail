@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22F82" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Email" representedClassName="Email" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group" inverseName="groupEmails" inverseEntity="Group"/>
+    </entity>
+    <entity name="Group" representedClassName="Group" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="groupEmails" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Email" inverseName="group" inverseEntity="Email"/>
+    </entity>
+</model>
